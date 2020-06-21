@@ -1,0 +1,57 @@
+body{
+
+    background-image:url('close-up-of-wooden-plank-326311.jpg');
+    background-position: center;
+    background-size:100% 200% ;
+    background-repeat: no-repeat;
+}
+body>div{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color:yellow;
+   font-size: 50px;
+   margin-left: 590px;
+   margin-top: 200px;
+}
+body>form{
+    margin-left: 625px;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+form{
+    align-items: center;
+}
+
+form>div{
+    color: gold;
+    margin-top: 10px;
+
+}
+button{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30%;
+}
+button:hover{
+    background-color: forestgreen;
+}
+input{
+    height: 25px;
+    width: 150px;
+    background-color:black;
+    color: ivory;
+}
+a{
+    color: gold;
+}
+a:hover{
+    color: honeydew;
+}
+#signup{
+    margin-left: 15px;
+}
