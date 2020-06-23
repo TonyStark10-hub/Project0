@@ -1,0 +1,58 @@
+body input[type=password], body input[type=email], body input[type=text] {
+  width: 150px;
+  height: 25px;
+}
+
+body {
+  background-image: url("abstract-ancient-antique-art-235985.jpg");
+}
+body #signup {
+  font-size: 50px;
+  color: black;
+  margin-left: 600px;
+  margin-top: 180px;
+}
+body form {
+  margin-left: 600px;
+}
+body form .h3 {
+  font-weight: bold;
+  color: whitesmoke;
+}
+body form .button {
+  background-color: blue;
+  border: none;
+  color: whitesmoke;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 8px 8px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+body form .button:hover {
+  background-color: chartreuse;
+}
+body input[type=text] {
+  background-color: yellow;
+}
+body input[type=email] {
+  background-color: cyan;
+}
+body input[type=password] {
+  background-color: black;
+  color: blanchedalmond;
+}
+body #login {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+body #login a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=sighup.css.map */

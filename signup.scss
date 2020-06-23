@@ -1,0 +1,62 @@
+%inputs{
+    width:150px;
+    height:25px;
+    }
+body{
+    background-image: url('abstract-ancient-antique-art-235985.jpg');
+    #signup{
+        font-size: 50px;
+        color: darken($color: #000000, $amount: 0);
+        margin-left: 600px;
+        margin-top: 180px;
+    }
+    form{
+        margin-left: 600px;
+        .h3{
+            font-weight: bold;
+            color:whitesmoke;
+            
+        }
+        .button{
+            background-color:blue ;
+            border: none;
+            color: whitesmoke;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 8px 8px;
+            cursor: pointer;
+            border-radius: 30%;
+        }
+        .button:hover{
+            background-color: chartreuse;
+        }
+        
+        }
+        input[type=text]{
+            @extend %inputs;
+            background-color: yellow;
+        }
+        input[type=email]{
+            @extend %inputs;
+            background-color: cyan;
+
+        }
+        input[type=password]{
+            @extend %inputs;
+            background-color: black;
+            color: blanchedalmond;
+        }
+        #login{
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+            a:hover{
+                color: blue;
+
+            }
+        }
+    }
