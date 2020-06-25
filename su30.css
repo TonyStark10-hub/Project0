@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+body h2 {
+  color: blanchedalmond;
+  font-weight: bold;
+}
+body h3 {
+  margin-left: 40px;
+  color: blanchedalmond;
+}
+body li {
+  color: blanchedalmond;
+}
+body .container {
+  margin-top: 30px;
+  text-align: center;
+}
+body .carousel-inner {
+  height: 500px;
+}
+
+/*# sourceMappingURL=su30.css.map */
