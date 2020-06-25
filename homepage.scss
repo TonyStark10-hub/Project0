@@ -1,0 +1,34 @@
+$margin:520px;
+body{
+    background-color:black;
+    
+    .row{
+        text-align: center;;
+    }
+    #head{
+        margin-top: 50px;
+        margin-left: $margin;
+        font-weight: bold;
+        font-size: xx-large;
+        color: coral;
+    }
+    #context{
+        margin-left: $margin;
+        background-color:green;
+        margin-right: $margin;
+        font-weight: bold;
+        color:cyan;
+        font-size: larger;
+        margin-bottom: 100px;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+    }
+    p{
+        color: white;
+        margin-top: 100px;
+    }
+    
+
+}

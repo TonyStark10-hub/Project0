@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+body .row {
+  text-align: center;
+}
+body #head {
+  margin-top: 50px;
+  margin-left: 520px;
+  font-weight: bold;
+  font-size: xx-large;
+  color: coral;
+}
+body #context {
+  margin-left: 520px;
+  background-color: green;
+  margin-right: 520px;
+  font-weight: bold;
+  color: cyan;
+  font-size: larger;
+  margin-bottom: 100px;
+}
+body h2 {
+  color: white;
+  font-weight: bold;
+}
+body p {
+  color: white;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=homepage.css.map */
